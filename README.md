@@ -12,10 +12,12 @@ KPI Cards to track:
 📈 Total Profit (37K)
 📊 Average Order Value (121K)
 
+
 **Dynamic Filtering & Drill-downs:**
 Time-based filtering by quarters (Q1–Q4).
 State-level analysis with slicers.
 Customer-level breakdowns.
+
 
 **Custom Visualizations:**
 
@@ -25,10 +27,12 @@ Clustered Bar → Profit by Sub-Category
 Geo-Analysis → Sales by State
 Interactive Analytics:
 
+
 **Drill-down into categories, payment modes, and sub-categories.**
 
 Comparative analysis of profitability trends across months and states.
 Identify top-performing customers and products.
+
 
 **Key Insights**
 
@@ -38,11 +42,13 @@ August–November months perform best in terms of profit, while July & December 
 Online transactions (44%) dominate as the most preferred payment mode.
 Customer "Hariwansh" records the highest sales contribution.
 
+
 **Tech Stack**
 
 Microsoft Power BI – Dashboard creation & visualization
 Data Modeling – Table joins, calculated columns, DAX measures
 Custom Visuals – Bar, Clustered Bar, Line, Area, Scatter, Pie, Donut, Maps, Slicers
+
 
 **Files in Repository**
 
@@ -50,7 +56,6 @@ Ecommerce Data.xlsx → Raw dataset
 Ecommerce_Sales_Dashboard.pbix → Power BI Dashboard file
 Screenshot.png → Preview of the Dashboard
 
-📸 Dashboard Preview
 
 **How to Use**
 
@@ -58,6 +63,7 @@ Download the .pbix file.
 Open in Power BI Desktop.
 Connect/update the dataset if required.
 Explore the dashboard using slicers and filters.
+
 
  **Future Enhancements**
 
