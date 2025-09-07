@@ -1,72 +1,43 @@
-**Project Overview**
+#  E-Commerce Sales Dashboard (Power BI)
 
-This project showcases an interactive Power BI dashboard built to monitor and analyze E-Commerce sales performance.
-The dashboard provides actionable insights into sales amount, profit trends, customer purchases, product categories, payment modes, and regional performance.
-
-
-**Features**
-
-KPI Cards to track:
-💰 Total Sales Amount (438K)
-📦 Quantity Sold (5615)
-📈 Total Profit (37K)
-📊 Average Order Value (121K)
+## Project Overview
+This project presents an **interactive Power BI dashboard** designed to monitor and analyze **E-Commerce sales performance**.  
+It provides actionable insights into **sales revenue, profit trends, product categories, customer behavior, payment modes, and regional sales distribution**.  
 
 
-**Dynamic Filtering & Drill-downs:**
-Time-based filtering by quarters (Q1–Q4).
-State-level analysis with slicers.
-Customer-level breakdowns.
+---
 
+## Features
+- **KPI Metrics**:
+  -  Total Sales Amount: **438K**  
+  -  Total Quantity Sold: **5615**  
+  -  Total Profit: **37K**  
+  -  Average Order Value (AOV): **121K**
 
-**Custom Visualizations:**
+- **Dynamic Filtering & Drill-downs**:
+  - Filter by **quarters (Q1–Q4)**.  
+  - **State-level** and **customer-level** analysis.  
+  - Drill-down across **categories, sub-categories, and payment modes**.
 
-Bar Charts → Profit by Month, Sales by Customer
-Donut Charts → Quantity by Category & Payment Mode
-Clustered Bar → Profit by Sub-Category
-Geo-Analysis → Sales by State
-Interactive Analytics:
+- **Custom Visualizations**:
+  - Bar & Clustered Bar Charts → Sales by Customer, Profit by Month, Profit by Sub-Category  
+  - Donut Charts → Quantity by Category, Quantity by Payment Mode  
+  - Geographic Breakdown → Sales by State  
+  - KPI Cards & Slicers for interactivity
 
+---
 
-**Drill-down into categories, payment modes, and sub-categories.**
+##  Key Insights
+- **Maharashtra** recorded the highest sales contribution among states.  
+- **Printers** and **Bookcases** are the most profitable sub-categories.  
+- **August–November** months generated peak profits, while **July & December** recorded losses.  
+- **Online payments (44%)** are the most preferred mode of transaction.  
+- **Customer "Hariwansh"** contributed the maximum sales revenue.  
 
-Comparative analysis of profitability trends across months and states.
-Identify top-performing customers and products.
+---
 
-
-**Key Insights**
-
-Maharashtra contributes the highest sales among states.
-Printers and Bookcases generate the most profit in sub-categories.
-August–November months perform best in terms of profit, while July & December show losses.
-Online transactions (44%) dominate as the most preferred payment mode.
-Customer "Hariwansh" records the highest sales contribution.
-
-
-**Tech Stack**
-
-Microsoft Power BI – Dashboard creation & visualization
-Data Modeling – Table joins, calculated columns, DAX measures
-Custom Visuals – Bar, Clustered Bar, Line, Area, Scatter, Pie, Donut, Maps, Slicers
-
-
-**Files in Repository**
-
-Ecommerce Data.xlsx → Raw dataset
-Ecommerce_Sales_Dashboard.pbix → Power BI Dashboard file
-Screenshot.png → Preview of the Dashboard
-
-
-**How to Use**
-
-Download the .pbix file.
-Open in Power BI Desktop.
-Connect/update the dataset if required.
-Explore the dashboard using slicers and filters.
-
-
- **Future Enhancements**
-
-Adding forecasting models for future sales.
-Including RFM analysis (Recency, Frequency, Monetary) for customer segmentation.
-Integration with real-time sales data APIs for live dashboards.
+## 🛠 Tech Stack
+- **Microsoft Power BI** – Dashboard development & data visualization  
+- **DAX (Data Analysis Expressions)** – Calculated measures & KPIs  
+- **Data Modeling** – Relationships, joins, and calculated fields  
+- **Custom Visuals** – Bar, Clustered Bar, Line, Area,
