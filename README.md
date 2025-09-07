@@ -36,7 +36,7 @@ It provides actionable insights into **sales revenue, profit trends, product cat
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Microsoft Power BI** – Dashboard development & data visualization  
 - **DAX (Data Analysis Expressions)** – Calculated measures & KPIs  
 - **Data Modeling** – Relationships, joins, and calculated fields  
